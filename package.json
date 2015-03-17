@@ -2,16 +2,12 @@
   "name": "json-xargs",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",  
+  "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
   },
   "dependencies": {},
-    
-   
-    "author": "Yaniv Kessler", 
-  
-  
+  "author": "Yaniv Kessler",
   "bugs": {
     "url": "https://github.com/kessler/json-xargs/issues"
   },
@@ -20,6 +16,8 @@
     "url": "https://github.com/kessler/json-xargs"
   },
   "homepage": "https://github.com/kessler/json-xargs",
-    
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^5.0.0"
+  }
 }
